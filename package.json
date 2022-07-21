@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "features": "cypress run --spec \"cypress/e2e/tryForFree.feature\"",
+    "reporter": "node \"cypress/support/cucumber-html-reporter.js\""
+  },
+  "author": "Andrii Kravchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^10.3.1",
+    "esbuild": "^0.14.49"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1"
+  }
+}
