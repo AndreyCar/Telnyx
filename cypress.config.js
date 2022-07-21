@@ -25,14 +25,12 @@ module.exports = defineConfig({
 		viewportHeight: 780,
 		viewportWidth: 1440,
 		pageLoadTimeout: 60000,
-		reporter: 'json',
-		reporterOptions: {
-			toConsole: false,
-			outputFolder: 'cypress/results',
-			overwrite: true,
-			
-		},
+		// reporter: 'json',
+		// reporterOptions: {
+		// 	toConsole: false,
+		// 	outputFolder: 'cypress/results',
+		// 	overwrite: true,
+		// },
 		setupNodeEvents,
-		
 	},
 });

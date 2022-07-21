@@ -10,7 +10,6 @@ Given('I go to the home page', () => {
 });
 
 When('I enter an email in the field', () => {
-	HomePage.emailInputClick();
 	HomePage.emailInputType(email);
 });
 
