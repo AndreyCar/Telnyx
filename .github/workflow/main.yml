@@ -1,0 +1,35 @@
+on: [push]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cypress install
+        uses: cypress-io/github-action@v4
+        with:
+          browser: chrome
+          runTests: false
+      - name: Cypress run
+        run: npm run test
+      # - name: Generate Allure report
+      #   run: npx allure generate
+      # - name: Upload Results
+      #   uses: actions/upload-artifact@v1
+      #   if: always()
+      #   with:
+      #     name: allure-results
+      #     path: ./allure-results 
+      # - name: Publishing Allure artifact to Github Actions
+      #   uses: actions/upload-artifact@v2
+      #   if: always()
+      #   with:
+      #     name: allure-report
+      #     path: ./allure-report
+      # - name: Deploy report
+      #   uses: JamesIves/github-pages-deploy-action@4.1.4
+      #   if: always()
+      #   with:
+      #     branch: report 
+      #     folder: allure-report 
