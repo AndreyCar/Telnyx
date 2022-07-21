@@ -12,7 +12,7 @@ jobs:
           browser: chrome
           runTests: false
       - name: Cypress run
-        run: npm run test
+        run: npm run cy:run
       # - name: Generate Allure report
       #   run: npx allure generate
       # - name: Upload Results
