@@ -3,7 +3,7 @@ import SearchPage from '../../support/pageobjects/search.page';
 
 const search = 'Voice';
 
-Given('I go to the search page', () => {
+Given('I go to the support center search page', () => {
 	SearchPage.open();
 });
 
