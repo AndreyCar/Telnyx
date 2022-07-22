@@ -29,9 +29,9 @@ jobs:
         with:
           name: cucumber-html-report
           path: ./cypress/report 
-      - name: Deploy report
+      - name: Deploy reports
         uses: JamesIves/github-pages-deploy-action@4.1.4
         if: always()
         with:
           branch: report 
-          folder: ./cypress/report 
+          folder: ./cypress/reports
