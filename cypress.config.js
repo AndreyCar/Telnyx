@@ -23,15 +23,6 @@ module.exports = defineConfig({
 		supportFile: false,
 		video: false,
 		screenshotOnRunFailure: false,
-		// viewportHeight: 780,
-		// viewportWidth: 1440,
-		// pageLoadTimeout: 100000,
-		// reporter: 'json',
-		// reporterOptions: {
-		// 	toConsole: false,
-		// 	outputFolder: 'cypress/results',
-		// 	overwrite: true,
-		// },
 		setupNodeEvents,
 	},
 });

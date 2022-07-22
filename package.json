@@ -6,7 +6,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "features": "cypress run --browser edge --spec \"cypress/e2e/stayConnected.feature\"",
+    "features": "cypress run --spec \"cypress/e2e/tryForFree.feature\"",
     "reporter": "node \"cypress/support/cucumber-html-reporter.js\""
   },
   "author": "Andrii Kravchenko",
@@ -20,18 +20,11 @@
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^11.5.1"
   },
-  "@badeball/cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
-    "cucumberJson": {
-      "generate": true,
-      "outputFolder": "cypress/cucumber-json",
-      "filePrefix": "",
-      "fileSuffix": ".cucumber"
-    },
-    "stepDefinitions": "cypress/fixtures/**/*.js",
+  "cypress-cucumber-preprocessor": {
     "json": {
-      "enabled": true
+      "enabled": true,
+      "output": "./cypress/results/cucumber-report.json",
+      "formatter": "./cucumber-json-formatter"
     }
   }
-  
 }

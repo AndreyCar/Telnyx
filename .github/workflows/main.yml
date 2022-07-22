@@ -13,23 +13,23 @@ jobs:
           runTests: false
       - name: Cypress run
         run: npm run cy:run
-      # - name: Generate html report
-      #   run: npm run reporter
+      - name: Generate html report
+        run: npm run reporter
       # - name: Upload Results
       #   uses: actions/upload-artifact@v1
       #   if: always()
       #   with:
-      #     name: allure-results
+      #     name: cucumber-html-results
       #     path: ./allure-results 
-      # - name: Publishing Allure artifact to Github Actions
-      #   uses: actions/upload-artifact@v2
-      #   if: always()
-      #   with:
-      #     name: allure-report
-      #     path: ./allure-report
-      # - name: Deploy report
-      #   uses: JamesIves/github-pages-deploy-action@4.1.4
-      #   if: always()
-      #   with:
-      #     branch: report 
-      #     folder: allure-report 
+      - name: Publishing Allure artifact to Github Actions
+        uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: cucumber-html-report
+          path: ./cypress/report 
+      - name: Deploy report
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        if: always()
+        with:
+          branch: report 
+          folder: ./cypress/report 
