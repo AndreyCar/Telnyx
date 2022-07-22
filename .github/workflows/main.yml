@@ -11,6 +11,8 @@ jobs:
         with:
           browser: chrome
           runTests: false
+      - name: Formatter
+        run: npm run formatter
       - name: Cypress run
         run: npm run cy:run
       - name: Generate html report
