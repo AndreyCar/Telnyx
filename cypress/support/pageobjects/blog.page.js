@@ -5,6 +5,9 @@ class BlogPage extends Page {
 	contentFilterButton = '#filter-by-content+ul button';
 	topicLabel = '.Text-sc-5o8owa-0.sc-a6f05a8b-0>span';
 	titleLabel = '.Text-sc-5o8owa-0.sc-b43e299b-1.knOJT.jSrPQp';
+	emailInput = '#Email';
+	subscribeButton = '[type="submit"]';
+	confirmLabel = '[class="Text-sc-5o8owa-0 sc-348be244-3 ijJVSH eWygFt"]';
 
 	open() {
 		super.open('resources/');
@@ -16,6 +19,14 @@ class BlogPage extends Page {
 
 	contentFilterButtonClick(index) {
 		this.getElement(this.contentFilterButton).eq(index).click();
+	}
+
+	emailInputType(email) {
+		this.getElement(this.emailInput).click().type(email);
+	}
+
+	subscribeButtonClick() {
+		this.getElement(this.subscribeButton).click();
 	}
 }
 
