@@ -1,0 +1,1198 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "back-to-home;should-check-if-the-button-return-from-the-search-page-to-the-home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the button return from the search page to the home page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the search page",
+            "result": {
+              "duration": 2736000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Go to Telnyx button",
+            "result": {
+              "duration": 2992000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see I'm back on the home page",
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "back-to-home",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Back to home",
+    "uri": "cypress/e2e/backToHome.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "blog-filter;should-check-if-the-filter-by-product-shows-the-correct-results",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the filter by product shows the correct results",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the blog page",
+            "result": {
+              "duration": 7940000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the first filter by product",
+            "result": {
+              "duration": 762000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see that the filter by product shows the correct results",
+            "result": {
+              "duration": 507000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "blog-filter;should-check-if-the-filter-by-content-shows-the-correct-results",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Should check if the filter by content shows the correct results",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I go again to the blog page",
+            "result": {
+              "duration": 1138000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on the first filter by content",
+            "result": {
+              "duration": 1321000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I see that the filter by content shows the correct results",
+            "result": {
+              "duration": 507000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "blog-filter",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Blog filter",
+    "uri": "cypress/e2e/blogFilter.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "call-us;should-check-if-the-call-sales-button-is-visible",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the call sales button is visible",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the home page",
+            "result": {
+              "duration": 1996000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Call Us button",
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see the call sales button is visible",
+            "result": {
+              "duration": 451000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "call-us",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Call us",
+    "uri": "cypress/e2e/callUs.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "talk-to-an-expert;should-check-if-talk-to-an-expert-button-send-to-the-contact-us-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if Talk to an expert button send to the contact us page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the home page",
+            "result": {
+              "duration": 2520000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Talk to an expert button",
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see that the contact us page is loaded",
+            "result": {
+              "duration": 2659000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "talk-to-an-expert",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Talk to an expert",
+    "uri": "cypress/e2e/expertTalk.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "explanation-button;should-check-if-the-information-is-displayed-after-hover-on-the-explanation-button",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the information is displayed after hover on the explanation button",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the verify api pricing page",
+            "result": {
+              "duration": 1691000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I hover mouse on explanation button",
+            "result": {
+              "duration": 867000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see that the information is displayed",
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "explanation-button",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Explanation button",
+    "uri": "cypress/e2e/explanationButton.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "get-started;should-check-if-get-started-now-button-send-to-the-sign-up-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if Get Started Now button send to the sign up page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the sms api product page",
+            "result": {
+              "duration": 2531000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Get Started Now button",
+            "result": {
+              "duration": 475000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see that the sign up page is loaded",
+            "result": {
+              "duration": 3574000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-started",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Get started",
+    "uri": "cypress/e2e/getStarted.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "join-the-waitlist;should-to-join-the-waitlist",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should to join the waitlist",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the home page",
+            "result": {
+              "duration": 2207000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click to the join the waitlist button on home page",
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click to the join the waitlist button on storage page",
+            "result": {
+              "duration": 1611000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter all data",
+            "result": {
+              "duration": 3470000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click to the apply now button",
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see a confirmation title",
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "join-the-waitlist",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Join the waitlist",
+    "uri": "cypress/e2e/joinTheWaitlist.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "log-in-with-empty-fields;should-log-in-with-empty-fields",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should log in with empty fields",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the log in page",
+            "result": {
+              "duration": 10455000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Log in button",
+            "result": {
+              "duration": 635000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see that email error is displayed",
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "log-in-with-empty-fields",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Log in with empty fields",
+    "uri": "cypress/e2e/logInEmptyFields.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "savings-calculator;should-check-if-the-saving-price-is-visible",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the saving price is visible",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the savings calculator page",
+            "result": {
+              "duration": 2551000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I choose the product",
+            "result": {
+              "duration": 540000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Continue button",
+            "result": {
+              "duration": 786000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see that the savings price is visible",
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "savings-calculator",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Savings calculator",
+    "uri": "cypress/e2e/pricingCalculator.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "country-check-in-title;check-if-the-country-is-displayed-in-the-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Check if the country is displayed in the title",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the elastic-sip pricing page",
+            "result": {
+              "duration": 2480000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I choose the first contry",
+            "result": {
+              "duration": 3340000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see that the title contains the country",
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "country-check-in-title",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Country check in title",
+    "uri": "cypress/e2e/pricingCountry.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "currency-check-in-url;check-if-the-currency-is-contained-in-the-url",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Check if the currency is contained in the url",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the elastic-sip pricing page",
+            "result": {
+              "duration": 2418000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I choose the first currency",
+            "result": {
+              "duration": 891000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see that the url contains the currency",
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "currency-check-in-url",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Currency check in url",
+    "uri": "cypress/e2e/pricingCurrency.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "resend-email;should-check-if-success-message-is-displayed",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if success message is displayed",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the resend email page",
+            "result": {
+              "duration": 6437000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter an email in the field",
+            "result": {
+              "duration": 408000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the resend email button",
+            "result": {
+              "duration": 199000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see that the success message is displayed",
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "resend-email",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Resend email",
+    "uri": "cypress/e2e/resendEmail.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "reset-password;should-check-if-the-reset-password-button-is-disabled-when-email-field-is-empty",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the reset password button is disabled when email field is empty",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the password reset page",
+            "result": {
+              "duration": 6729000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I see that the button is disabled",
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "reset-password;should-check-if-success-message-is-displayed",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Should check if success message is displayed",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to the password reset page",
+            "result": {
+              "duration": 3323000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter an email in the field",
+            "result": {
+              "duration": 409000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the reset password button",
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see that the success message is displayed",
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "reset-password",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Reset password",
+    "uri": "cypress/e2e/resetPassword.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "show-password;should-sign-up-with-invalid-data",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should sign up with invalid data",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the sign up page",
+            "result": {
+              "duration": 4818000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the show password button",
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Password input type should be text",
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "show-password",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Show password",
+    "uri": "cypress/e2e/showPassword.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sign-up-with-empty-fields;should-sign-up-with-empty-fields",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should sign up with empty fields",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the sign up page",
+            "result": {
+              "duration": 5325000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Create Account button",
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the error is displayed",
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "sign-up-with-empty-fields",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Sign up with empty fields",
+    "uri": "cypress/e2e/signUpEmptyFields.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "stay-connected;should-check-if-the-confirmation-is-displayed-on-the-blog-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the confirmation is displayed on the blog page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the blog page",
+            "result": {
+              "duration": 2899000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I type email in field",
+            "result": {
+              "duration": 999000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click Subscribe button",
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see that the confirmation is displayed",
+            "result": {
+              "duration": 999000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "stay-connected",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Stay Connected",
+    "uri": "cypress/e2e/stayConnected.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "support-center-search;should-check-if-the-search-query-is-in-the-search-results",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if the search query is in the search results",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the support center search page",
+            "result": {
+              "duration": 910000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter the search query to search field",
+            "result": {
+              "duration": 1088000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see that the search query is in the search results",
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "I see that url contains the search query",
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "support-center-search",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Support center search",
+    "uri": "cypress/e2e/supportCenterSearch.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "try-for-free;should-check-if-an-email-address-entered-in-the-email-field",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should check if an email address entered in the email field",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the home page",
+            "result": {
+              "duration": 2233000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter an email in the field",
+            "result": {
+              "duration": 1026000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Try fo free button",
+            "result": {
+              "duration": 372000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see an email address entered in the email field",
+            "result": {
+              "duration": 5397000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "try-for-free",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Try for free",
+    "uri": "cypress/e2e/tryForFree.feature"
+  }
+]
