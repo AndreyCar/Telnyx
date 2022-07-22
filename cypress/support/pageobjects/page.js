@@ -1,6 +1,10 @@
 module.exports = class Page {
 	closeCookiesButton = '.sc-df34c536-5.jRrWoh';
 
+	closeCookies() {
+		this.getElement(this.closeCookiesButton).click();
+	}
+	
 	open(url) {
 		cy.visit(`https://telnyx.com/${url}`);
 	}
@@ -9,7 +13,5 @@ module.exports = class Page {
 		return cy.get(selector);
 	}
 
-	closeCookies() {
-		this.getElement(this.closeCookiesButton).click();
-	}
+	
 };

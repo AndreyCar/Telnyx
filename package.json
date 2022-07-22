@@ -6,7 +6,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "features": "cypress run --spec \"cypress/e2e/blogFilter.feature\"",
+    "features": "cypress run --browser edge --spec \"cypress/e2e/pricingCurrency.feature\"",
     "reporter": "node \"cypress/support/cucumber-html-reporter.js\""
   },
   "author": "Andrii Kravchenko",

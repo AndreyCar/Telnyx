@@ -6,6 +6,8 @@ class HomePage extends Page {
 	joinTheWaitlistButton = '[href="/products/storage"]';
 	callUsButton = '[class="Text-sc-5o8owa-0 sc-28d89a84-0 sc-d9b163cf-7 frufKM bJzgmA"]';
 	callSalesButton = '.sc-d9b163cf-6.NjVuW';
+	callingFromOverseasButton = '.sc-d9b163cf-5.PUfvr';
+	expertTalkButton = '.sc-9d98fd33-5.dVueFL.sc-9d98fd33-7.kpJVrZ [href="/contact-us"]';
 
 	emailInputType(email) {
 		this.getElement(this.emailInput).click().type(email);
@@ -21,6 +23,14 @@ class HomePage extends Page {
 
 	callUsButtonClick() {
 		this.getElement(this.callUsButton).click();
+	}
+
+	callingFromOverseasButtonClick() {
+		this.getElement(this.callingFromOverseasButton).click();
+	}
+
+	expertTalkButtonClick() {
+		this.getElement(this.expertTalkButton).click();
 	}
 }
 

@@ -13,8 +13,8 @@ jobs:
           runTests: false
       - name: Cypress run
         run: npm run cy:run
-      # - name: Generate Allure report
-      #   run: npx allure generate
+      # - name: Generate html report
+      #   run: npm run reporter
       # - name: Upload Results
       #   uses: actions/upload-artifact@v1
       #   if: always()
