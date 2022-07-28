@@ -14,7 +14,7 @@
             "line": 4,
             "name": "I go to the search page",
             "result": {
-              "duration": 2357000000,
+              "duration": 1953000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 5,
             "name": "I click on the Go to Telnyx button",
             "result": {
-              "duration": 5271000000,
+              "duration": 2197000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 6,
             "name": "I see I'm back on the home page",
             "result": {
-              "duration": 195000000,
+              "duration": 165000000,
               "status": "passed"
             },
             "match": {
@@ -70,7 +70,7 @@
             "line": 4,
             "name": "I go to the blog page",
             "result": {
-              "duration": 2516000000,
+              "duration": 4160000000,
               "status": "passed"
             },
             "match": {
@@ -82,7 +82,7 @@
             "line": 5,
             "name": "I click on the first filter by product",
             "result": {
-              "duration": 472000000,
+              "duration": 491000000,
               "status": "passed"
             },
             "match": {
@@ -94,7 +94,7 @@
             "line": 6,
             "name": "I see that the filter by product shows the correct results",
             "result": {
-              "duration": 1240000000,
+              "duration": 2700000000,
               "status": "passed"
             },
             "match": {
@@ -116,7 +116,7 @@
             "line": 10,
             "name": "I go again to the blog page",
             "result": {
-              "duration": 1322000000,
+              "duration": 824000000,
               "status": "passed"
             },
             "match": {
@@ -128,7 +128,7 @@
             "line": 11,
             "name": "I click on the first filter by content",
             "result": {
-              "duration": 853000000,
+              "duration": 711000000,
               "status": "passed"
             },
             "match": {
@@ -140,7 +140,7 @@
             "line": 12,
             "name": "I see that the filter by content shows the correct results",
             "result": {
-              "duration": 736000000,
+              "duration": 1239000000,
               "status": "passed"
             },
             "match": {
@@ -172,7 +172,7 @@
             "line": 4,
             "name": "I go to the home page",
             "result": {
-              "duration": 1641000000,
+              "duration": 1423000000,
               "status": "passed"
             },
             "match": {
@@ -184,7 +184,7 @@
             "line": 5,
             "name": "I click on the Call Us button",
             "result": {
-              "duration": 241000000,
+              "duration": 248000000,
               "status": "passed"
             },
             "match": {
@@ -196,7 +196,7 @@
             "line": 6,
             "name": "I see the call sales button is visible",
             "result": {
-              "duration": 594000000,
+              "duration": 176000000,
               "status": "passed"
             },
             "match": {
@@ -228,7 +228,7 @@
             "line": 4,
             "name": "I go to the home page",
             "result": {
-              "duration": 1981000000,
+              "duration": 1431000000,
               "status": "passed"
             },
             "match": {
@@ -240,7 +240,7 @@
             "line": 5,
             "name": "I click on the Talk to an expert button",
             "result": {
-              "duration": 222000000,
+              "duration": 218000000,
               "status": "passed"
             },
             "match": {
@@ -252,7 +252,7 @@
             "line": 6,
             "name": "I see that the contact us page is loaded",
             "result": {
-              "duration": 2488000000,
+              "duration": 629000000,
               "status": "passed"
             },
             "match": {
@@ -284,7 +284,7 @@
             "line": 4,
             "name": "I go to the verify api pricing page",
             "result": {
-              "duration": 1504000000,
+              "duration": 2310000000,
               "status": "passed"
             },
             "match": {
@@ -296,7 +296,7 @@
             "line": 5,
             "name": "I hover mouse on explanation button",
             "result": {
-              "duration": 667000000,
+              "duration": 372000000,
               "status": "passed"
             },
             "match": {
@@ -308,7 +308,7 @@
             "line": 6,
             "name": "I see that the information is displayed",
             "result": {
-              "duration": 71000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "match": {
@@ -340,7 +340,7 @@
             "line": 4,
             "name": "I go to the sms api product page",
             "result": {
-              "duration": 1912000000,
+              "duration": 1827000000,
               "status": "passed"
             },
             "match": {
@@ -352,7 +352,7 @@
             "line": 5,
             "name": "I click on the Get Started Now button",
             "result": {
-              "duration": 307000000,
+              "duration": 301000000,
               "status": "passed"
             },
             "match": {
@@ -364,7 +364,7 @@
             "line": 6,
             "name": "I see that the sign up page is loaded",
             "result": {
-              "duration": 3411000000,
+              "duration": 2649000000,
               "status": "passed"
             },
             "match": {
@@ -396,7 +396,7 @@
             "line": 4,
             "name": "I go to the home page",
             "result": {
-              "duration": 1682000000,
+              "duration": 1351000000,
               "status": "passed"
             },
             "match": {
@@ -408,7 +408,7 @@
             "line": 5,
             "name": "I click to the join the waitlist button on home page",
             "result": {
-              "duration": 269000000,
+              "duration": 249000000,
               "status": "passed"
             },
             "match": {
@@ -420,7 +420,7 @@
             "line": 6,
             "name": "I click to the join the waitlist button on storage page",
             "result": {
-              "duration": 1758000000,
+              "duration": 1130000000,
               "status": "passed"
             },
             "match": {
@@ -432,7 +432,7 @@
             "line": 7,
             "name": "I enter all data",
             "result": {
-              "duration": 2989000000,
+              "duration": 2954000000,
               "status": "passed"
             },
             "match": {
@@ -444,7 +444,7 @@
             "line": 8,
             "name": "I click to the apply now button",
             "result": {
-              "duration": 280000000,
+              "duration": 314000000,
               "status": "passed"
             },
             "match": {
@@ -456,7 +456,7 @@
             "line": 9,
             "name": "I see a confirmation title",
             "result": {
-              "duration": 40000000,
+              "duration": 48000000,
               "status": "passed"
             },
             "match": {
@@ -488,7 +488,7 @@
             "line": 4,
             "name": "I go to the log in page",
             "result": {
-              "duration": 8573000000,
+              "duration": 8111000000,
               "status": "passed"
             },
             "match": {
@@ -500,7 +500,7 @@
             "line": 5,
             "name": "I click on the Log in button",
             "result": {
-              "duration": 472000000,
+              "duration": 586000000,
               "status": "passed"
             },
             "match": {
@@ -512,7 +512,7 @@
             "line": 6,
             "name": "I should see that email error is displayed",
             "result": {
-              "duration": 66000000,
+              "duration": 81000000,
               "status": "passed"
             },
             "match": {
@@ -544,7 +544,7 @@
             "line": 4,
             "name": "I go to the savings calculator page",
             "result": {
-              "duration": 1817000000,
+              "duration": 1468000000,
               "status": "passed"
             },
             "match": {
@@ -556,7 +556,7 @@
             "line": 5,
             "name": "I choose the product",
             "result": {
-              "duration": 259000000,
+              "duration": 283000000,
               "status": "passed"
             },
             "match": {
@@ -568,7 +568,7 @@
             "line": 6,
             "name": "I click on the Continue button",
             "result": {
-              "duration": 511000000,
+              "duration": 437000000,
               "status": "passed"
             },
             "match": {
@@ -580,7 +580,7 @@
             "line": 7,
             "name": "I see that the savings price is visible",
             "result": {
-              "duration": 57000000,
+              "duration": 65000000,
               "status": "passed"
             },
             "match": {
@@ -612,7 +612,7 @@
             "line": 4,
             "name": "I go to the elastic-sip pricing page",
             "result": {
-              "duration": 2272000000,
+              "duration": 3137000000,
               "status": "passed"
             },
             "match": {
@@ -624,7 +624,7 @@
             "line": 5,
             "name": "I choose the first contry",
             "result": {
-              "duration": 2884000000,
+              "duration": 621000000,
               "status": "passed"
             },
             "match": {
@@ -636,7 +636,7 @@
             "line": 6,
             "name": "I should see that the title contains the country",
             "result": {
-              "duration": 140000000,
+              "duration": 2511000000,
               "status": "passed"
             },
             "match": {
@@ -668,7 +668,7 @@
             "line": 4,
             "name": "I go to the elastic-sip pricing page",
             "result": {
-              "duration": 2098000000,
+              "duration": 2741000000,
               "status": "passed"
             },
             "match": {
@@ -680,7 +680,7 @@
             "line": 5,
             "name": "I choose the first currency",
             "result": {
-              "duration": 695000000,
+              "duration": 646000000,
               "status": "passed"
             },
             "match": {
@@ -692,7 +692,7 @@
             "line": 6,
             "name": "I should see that the url contains the currency",
             "result": {
-              "duration": 113000000,
+              "duration": 92000000,
               "status": "passed"
             },
             "match": {
@@ -724,7 +724,7 @@
             "line": 4,
             "name": "I go to the resend email page",
             "result": {
-              "duration": 4680000000,
+              "duration": 4398000000,
               "status": "passed"
             },
             "match": {
@@ -736,7 +736,7 @@
             "line": 5,
             "name": "I enter an email in the field",
             "result": {
-              "duration": 400000000,
+              "duration": 356000000,
               "status": "passed"
             },
             "match": {
@@ -748,7 +748,7 @@
             "line": 6,
             "name": "I click on the resend email button",
             "result": {
-              "duration": 136000000,
+              "duration": 153000000,
               "status": "passed"
             },
             "match": {
@@ -760,7 +760,7 @@
             "line": 7,
             "name": "I see that the success message is displayed",
             "result": {
-              "duration": 413000000,
+              "duration": 284000000,
               "status": "passed"
             },
             "match": {
@@ -792,7 +792,7 @@
             "line": 4,
             "name": "I go to the password reset page",
             "result": {
-              "duration": 5036000000,
+              "duration": 4601000000,
               "status": "passed"
             },
             "match": {
@@ -804,7 +804,7 @@
             "line": 5,
             "name": "I see that the button is disabled",
             "result": {
-              "duration": 67000000,
+              "duration": 38000000,
               "status": "passed"
             },
             "match": {
@@ -826,7 +826,7 @@
             "line": 8,
             "name": "I go to the password reset page",
             "result": {
-              "duration": 2736000000,
+              "duration": 2841000000,
               "status": "passed"
             },
             "match": {
@@ -838,7 +838,7 @@
             "line": 9,
             "name": "I enter an email in the field",
             "result": {
-              "duration": 457000000,
+              "duration": 301000000,
               "status": "passed"
             },
             "match": {
@@ -850,7 +850,7 @@
             "line": 10,
             "name": "I click on the reset password button",
             "result": {
-              "duration": 150000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "match": {
@@ -862,7 +862,7 @@
             "line": 11,
             "name": "I see that the success message is displayed",
             "result": {
-              "duration": 114000000,
+              "duration": 839000000,
               "status": "passed"
             },
             "match": {
@@ -894,7 +894,7 @@
             "line": 4,
             "name": "I go to the sign up page",
             "result": {
-              "duration": 6231000000,
+              "duration": 2984000000,
               "status": "passed"
             },
             "match": {
@@ -906,7 +906,7 @@
             "line": 5,
             "name": "I click on the show password button",
             "result": {
-              "duration": 210000000,
+              "duration": 191000000,
               "status": "passed"
             },
             "match": {
@@ -918,7 +918,7 @@
             "line": 6,
             "name": "Password input type should be text",
             "result": {
-              "duration": 55000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "match": {
@@ -950,7 +950,7 @@
             "line": 4,
             "name": "I go to the sign up page",
             "result": {
-              "duration": 2972000000,
+              "duration": 4688000000,
               "status": "passed"
             },
             "match": {
@@ -962,7 +962,7 @@
             "line": 5,
             "name": "I click on the Create Account button",
             "result": {
-              "duration": 263000000,
+              "duration": 131000000,
               "status": "passed"
             },
             "match": {
@@ -974,7 +974,7 @@
             "line": 6,
             "name": "I should see the error is displayed",
             "result": {
-              "duration": 64000000,
+              "duration": 30000000,
               "status": "passed"
             },
             "match": {
@@ -1006,7 +1006,7 @@
             "line": 4,
             "name": "I go to the blog page",
             "result": {
-              "duration": 2306000000,
+              "duration": 2890000000,
               "status": "passed"
             },
             "match": {
@@ -1018,7 +1018,7 @@
             "line": 5,
             "name": "I type email in field",
             "result": {
-              "duration": 782000000,
+              "duration": 523000000,
               "status": "passed"
             },
             "match": {
@@ -1030,7 +1030,7 @@
             "line": 6,
             "name": "I click Subscribe button",
             "result": {
-              "duration": 325000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "match": {
@@ -1042,7 +1042,7 @@
             "line": 7,
             "name": "I see that the confirmation is displayed",
             "result": {
-              "duration": 696000000,
+              "duration": 533000000,
               "status": "passed"
             },
             "match": {
@@ -1074,7 +1074,7 @@
             "line": 4,
             "name": "I go to the support center search page",
             "result": {
-              "duration": 1029000000,
+              "duration": 1271000000,
               "status": "passed"
             },
             "match": {
@@ -1086,7 +1086,7 @@
             "line": 5,
             "name": "I enter the search query to search field",
             "result": {
-              "duration": 925000000,
+              "duration": 774000000,
               "status": "passed"
             },
             "match": {
@@ -1098,7 +1098,7 @@
             "line": 6,
             "name": "I see that the search query is in the search results",
             "result": {
-              "duration": 47000000,
+              "duration": 43000000,
               "status": "passed"
             },
             "match": {
@@ -1110,7 +1110,7 @@
             "line": 7,
             "name": "I see that url contains the search query",
             "result": {
-              "duration": 16000000,
+              "duration": 33000000,
               "status": "passed"
             },
             "match": {
@@ -1142,7 +1142,7 @@
             "line": 4,
             "name": "I go to the home page",
             "result": {
-              "duration": 1715000000,
+              "duration": 1380000000,
               "status": "passed"
             },
             "match": {
@@ -1154,7 +1154,7 @@
             "line": 5,
             "name": "I enter an email in the field",
             "result": {
-              "duration": 689000000,
+              "duration": 666000000,
               "status": "passed"
             },
             "match": {
@@ -1166,7 +1166,7 @@
             "line": 6,
             "name": "I click on the Try fo free button",
             "result": {
-              "duration": 3004000000,
+              "duration": 256000000,
               "status": "passed"
             },
             "match": {
@@ -1178,7 +1178,7 @@
             "line": 7,
             "name": "I see an email address entered in the email field",
             "result": {
-              "duration": 37000000,
+              "duration": 2147000000,
               "status": "passed"
             },
             "match": {
